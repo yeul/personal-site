@@ -1,0 +1,70 @@
+.hero-div {
+  font-family: "Ciutadella Bold";
+  line-height: 1;
+  transition: 0.3s ease;
+
+  .hero-hello {
+    color: #ff6188;
+    font-family: "Fira Code", monospace;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: translateY(-10px) scale(1.02);
+      transition: 0.4s ease-in-out;
+    }
+  }
+  .hero-my-name {
+    background-color: transparent;
+    font-size: 88px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: translateY(-10px) scale(1.02);
+      transition: 0.4s ease-in-out;
+    }
+  }
+  .hero-blurb {
+    font-size: 70px;
+    color: #756d77;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: translateY(-10px) scale(1.02);
+      transition: 0.4s ease-in-out;
+    }
+  }
+  .blinking-cursor {
+    margin-left: 5px;
+    height: 60px;
+    margin-bottom: -4px;
+    width: 5px;
+    background: #756d77;
+    opacity: 0;
+    display: inline-block;
+    animation: blink 1.2s linear infinite alternate;
+  }
+}
+.button {
+  background-color: transparent;
+  border: 1px solid #ff6188;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ff6188;
+  font-family: "Fira Code", monospace;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    background-color: #ff6188;
+    color: #fdf9f3;
+    transform: translateY(-10px) scale(1.02);
+    transition: 0.4s ease-in-out;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

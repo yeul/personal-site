@@ -1,0 +1,21 @@
+.landing-section-container {
+  height: 100vh;
+  .landing-section-row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .hero-hello {
+      margin-bottom: 20px;
+      margin-left: 14px;
+    }
+
+    .button-container {
+      .button {
+        margin-top: 50px;
+        width: fit-content;
+        padding: 20px;
+      }
+    }
+  }
+}

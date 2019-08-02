@@ -1,0 +1,30 @@
+.nav-container {
+  padding: 0px;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 50px;
+  list-style: none;
+  .nav-li {
+    .nav-num {
+      padding-right: 10px;
+      color: #ff6188;
+    }
+    .nav-link-name {
+      margin-right: 50px;
+      color: #fdf9f3;
+    }
+    .link-resume {
+      padding: 10px;
+      border: 1px solid #ff6188;
+      border-radius: 4px;
+      color: #ff6188;
+    }
+    .nav-num,
+    .nav-link-name {
+      font-family: "Fira Code", monospace;
+    }
+  }
+}
