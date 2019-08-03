@@ -9,6 +9,12 @@ class App extends React.Component {
     return (
       <Fragment>
         <Nav />
+        <div className='sideways-email'>
+          <a className='email' href='#'>
+            mpscqw@gmail.com
+          </a>
+          <span className='vertical-line' />
+        </div>
         <div className='landing-section-container container'>
           <div className='landing-section-row no-gutters'>
             <div className='landing-section-col col-lg-12'>

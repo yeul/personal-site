@@ -9,7 +9,10 @@ class Nav extends React.Component {
       <Fragment>
         <div className='nav-container container-fluid'>
           <div className='nav-row row no-gutters'>
-            <div className='nav-col col-lg-12'>
+            <div className='nav-col-left col-lg-1'>
+              <img className='self-logo' src='../static/images/self-logo.svg' />
+            </div>
+            <div className='nav-col-right col-lg-11'>
               <div className='navLinks'>
                 <ul className='nav-ul'>
                   <li className='nav-li'>

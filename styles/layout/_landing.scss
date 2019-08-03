@@ -1,3 +1,19 @@
+.sideways-email {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  transform: rotate(90deg);
+  bottom: 10%;
+  right: 0;
+  .vertical-line {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 2px;
+  }
+}
+
 .landing-section-container {
   height: 100vh;
   .landing-section-row {
