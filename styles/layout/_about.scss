@@ -1,0 +1,36 @@
+.about-section-header-col {
+  .about-section-header {
+    .about-title {
+      color: #fdf9f3;
+      font-size: 30px;
+      font-family: "FiraCode Regular", monospace;
+      border-bottom: 1px solid #78dce8;
+    }
+  }
+}
+
+.about-text {
+  margin-top: 50px;
+  .about-paragraph {
+    color: #afa6b1;
+    font-family: "Ciutadella Regular";
+  }
+}
+
+.skills {
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  line-height: 25px;
+  font-size: 13px;
+  color: #afa6b1;
+  letter-spacing: 1px;
+  padding: 0px;
+  li {
+    &:before {
+      content: "▹";
+      color: #ffd866;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}

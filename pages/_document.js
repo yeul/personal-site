@@ -16,8 +16,8 @@ class myApp extends Document {
           />
           {/*Font Awesome*/}
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css' />
-          {/* Google Fonts */}
-          <link href='https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap' rel='stylesheet' />
+          {/* Google Fonts
+          <link href='https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap' rel='stylesheet' /> */}
         </Head>
         <body>
           <Main />

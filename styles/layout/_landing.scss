@@ -3,11 +3,8 @@
 .fa-icon {
   position: fixed;
   left: 3%;
-  color: #756d77;
-  transition: 0.2s ease-in-out;
-  &:hover {
-    transition: 0.2s ease-in-out;
-    color: #ff6188;
+  @media #{$md-and-smaller} {
+    display: none;
   }
 }
 .fa-github {
@@ -23,6 +20,9 @@
   bottom: 24%;
   transform: rotate(-90deg);
   left: -9%;
+  @media #{$md-and-smaller} {
+    display: none;
+  }
   .vertical-line-top {
     display: flex;
     flex-direction: column;
@@ -30,10 +30,7 @@
     width: 500px;
     height: 1px;
     content: "";
-    background: #fdf9f3;
     .email-span {
-      width: 200px;
-      background-color: #2d2a2e;
       flex-direction: column;
       justify-content: flex-end;
       align-items: flex-end;
@@ -42,16 +39,6 @@
       .email {
         margin-top: 5px;
         padding-left: 45px;
-        font-family: "Fira Code", monospace;
-        color: #756d77;
-        transition: 0.2s ease-in-out;
-        letter-spacing: 0.5px;
-        text-decoration: none;
-        font-size: 13px;
-        &:hover {
-          color: #ff6188;
-          transition: 0.2s ease-in-out;
-        }
       }
     }
   }
