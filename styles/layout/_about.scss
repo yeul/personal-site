@@ -4,7 +4,7 @@
       color: #fdf9f3;
       font-size: 30px;
       font-family: "FiraCode Regular", monospace;
-      border-bottom: 1px solid #78dce8;
+      border-bottom: 1px solid #ff6188;
     }
   }
 }
@@ -28,9 +28,83 @@
   li {
     &:before {
       content: "▹";
-      color: #ffd866;
+      color: #ff6188;
       letter-spacing: 10px;
       font-size: 18px;
     }
   }
+}
+
+.recent-tech {
+  color: #ff6188;
+}
+
+.more-skills-header {
+  display: flex;
+  justify-content: flex-end;
+  .more-skills-title {
+    color: #fdf9f3;
+    font-size: 30px;
+    font-family: "FiraCode Regular", monospace;
+    border-bottom: 1px solid #ff6188;
+  }
+}
+
+.more-skills-description-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  .more-skills-1-p {
+    margin-top: 50px;
+    color: #afa6b1;
+    font-family: "Ciutadella Regular";
+  }
+  .more-skills-2-p {
+    color: #afa6b1;
+    font-family: "Ciutadella Regular";
+  }
+}
+
+.more-skills-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  line-height: 25px;
+  font-size: 13px;
+  color: #afa6b1;
+  letter-spacing: 1px;
+  li {
+    &:before {
+      content: "▹";
+      color: #ff6188;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+.more-skills-2a,
+.more-skills-2b {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  line-height: 25px;
+  font-size: 13px;
+  color: #afa6b1;
+  li {
+    &:before {
+      content: "▹";
+      color: #ff6188;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+.more-skills-2b {
+  padding: 0px;
+  text-align: right;
 }

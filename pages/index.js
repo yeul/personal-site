@@ -53,8 +53,8 @@ class App extends React.Component {
                 </p>
                 <p className='about-paragraph'>
                   <br />
-                  My continuing goals are to become increasingly knowlegeable in the realm of web development in addition to cybersecurity. Below are some of the technologies that
-                  I have been using recently:
+                  My continuing goals are to become increasingly knowlegeable in the realm of web development in addition to cybersecurity.
+                  <span className='recent-tech'> Below are some of the technologies that I have been using recently:</span>
                 </p>
               </div>
             </div>
@@ -75,6 +75,55 @@ class App extends React.Component {
                 <li>Express</li>
                 <li>Git</li>
                 <li>Heroku</li>
+              </ul>
+            </div>
+          </div>
+          <div className='more-skills-row row'>
+            <div className='col-lg-6' />
+            <div className='more-skills-col col-lg-6'>
+              <h3 className='more-skills-header'>
+                <span className='more-skills-title'>Additional Skills</span>
+              </h3>
+            </div>
+          </div>
+          <div className='more-skills-description-row row'>
+            <div className='col-lg-6' />
+            <div className='more-skills-desc-col-lg-6'>
+              <p className='more-skills-1-p'>I have also had exposure to...</p>
+            </div>
+          </div>
+          <div className='more-skills-row row'>
+            <div className='col-lg-8' />
+            <div className='more-skills-col col-lg-4'>
+              <ul className='more-skills-1'>
+                <li>MongoDB</li>
+                <li>GraphQL</li>
+                <li>Socket.io</li>
+              </ul>
+            </div>
+          </div>
+          <div className='more-skills-description-row row'>
+            <div className='col-lg-6' />
+            <div className='more-skills-desc-col-lg-6'>
+              <p className='more-skills-2-p'>...And use design and illustration tools such as...</p>
+            </div>
+          </div>
+          <div className='more-skills-row row'>
+            <div className='col-lg-8' />
+            <div className='more-skills-col-1 col-lg-2'>
+              <ul className='more-skills-2a'>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Lightroom</li>
+                <li>InDesign</li>
+              </ul>
+            </div>
+            <div className='more-skills-col-2 col-lg-2'>
+              <ul className='more-skills-2b'>
+                <li>InVision Studio</li>
+                <li>Sketch</li>
+                <li>ZBrush</li>
+                <li>3dsMax</li>
               </ul>
             </div>
           </div>
