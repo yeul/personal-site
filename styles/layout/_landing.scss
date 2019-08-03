@@ -1,16 +1,59 @@
-.sideways-email {
+@import "../base/media-queries";
+
+.fa-icon {
+  position: fixed;
+  left: 3%;
+  color: #756d77;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transition: 0.2s ease-in-out;
+    color: #ff6188;
+  }
+}
+.fa-github {
+  bottom: 55%;
+}
+.fa-linkedin-in {
+  bottom: 50%;
+}
+.sideways-links {
   display: flex;
   flex-direction: row;
   position: fixed;
-  transform: rotate(90deg);
-  bottom: 10%;
-  right: 0;
-  .vertical-line {
+  bottom: 24%;
+  transform: rotate(-90deg);
+  left: -9%;
+  .vertical-line-top {
     display: flex;
-    align-content: center;
-    align-items: center;
-    padding-left: 40px;
-    padding-top: 2px;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 1px;
+    content: "";
+    background: #fdf9f3;
+    .email-span {
+      width: 200px;
+      background-color: #2d2a2e;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-left: 150px;
+
+      .email {
+        margin-top: 5px;
+        padding-left: 45px;
+        font-family: "Fira Code", monospace;
+        color: #756d77;
+        transition: 0.2s ease-in-out;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        font-size: 13px;
+        &:hover {
+          color: #ff6188;
+          transition: 0.2s ease-in-out;
+        }
+      }
+    }
   }
 }
 

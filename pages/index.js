@@ -9,11 +9,16 @@ class App extends React.Component {
     return (
       <Fragment>
         <Nav />
-        <div className='sideways-email'>
-          <a className='email' href='#'>
-            mpscqw@gmail.com
-          </a>
-          <span className='vertical-line' />
+        <i className='fa-icon fab fa-github' />
+        <i className='fa-icon fab fa-linkedin-in' />
+        <div className='sideways-links'>
+          <span className='vertical-line-top'>
+            <span className='email-span'>
+              <a className='email' href='#'>
+                mpscqw@gmail.com
+              </a>
+            </span>
+          </span>
         </div>
         <div className='landing-section-container container'>
           <div className='landing-section-row no-gutters'>
