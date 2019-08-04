@@ -1,0 +1,76 @@
+.projects-header-col {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .project-header-text {
+    color: #fdf9f3;
+    font-size: 30px;
+    font-family: "FiraCode Regular", monospace;
+    border-bottom: 1px solid #ff6188;
+  }
+}
+
+.project-sample-1 {
+  margin-top: 100px;
+  .project-image {
+    // width: 600px;
+    // height: 300px;
+    max-width: 100%;
+    background-color: #ff6188;
+    border-radius: 6px;
+  }
+}
+
+.project-sample-info {
+  font-size: 15px;
+  color: #afa6b1;
+  font-family: "Ciutadella Regular";
+  padding: 15px;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  background-color: #322f33;
+  border-radius: 2px;
+  top: 50%;
+  right: 40%;
+  z-index: 999;
+  box-shadow: 10px 10px 50px rgb(39, 38, 38);
+}
+
+.background-border {
+  border: 2px solid #78dce8;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 55%;
+  right: 35%;
+  border-radius: 2px;
+}
+
+.project-sample-info-2 {
+  font-size: 15px;
+  color: #afa6b1;
+  font-family: "Ciutadella Regular";
+  padding: 15px;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  background-color: #322f33;
+  border-radius: 2px;
+  top: 50%;
+  left: 40%;
+  z-index: 999;
+  box-shadow: 10px 10px 50px rgb(39, 38, 38);
+  text-align: left;
+}
+
+.background-border-2 {
+  border: 2px solid #78dce8;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  border-radius: 2px;
+  z-index: 2;
+}

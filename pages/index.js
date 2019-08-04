@@ -47,7 +47,7 @@ class App extends React.Component {
             <div className='about-text-col col-lg-6'>
               <div className='about-text'>
                 <p className='about-paragraph'>
-                  I'm Julia Furman, a web developer based in the DC-metro area looking to work collaboratively with developers to build high-quality websites. I received a
+                  I'm Julia Furman, a web developer based in the DC-metro area looking to work collaboratively with other developers to build high-quality websites. I received a
                   Bachelor's degree in East Asian Studies and Cybersecurity from University of Maryland University College, am a Certified Surgical Technologist, and am highly
                   interested in the nexus of technology and security with its ever-increasing importance in today's international landscape.
                 </p>
@@ -127,6 +127,45 @@ class App extends React.Component {
               </ul>
             </div>
           </div>
+        </div>
+        <div className='projects-container container'>
+          <div className='projects-header-row row'>
+            <div className='projects-header-col col-lg-12'>
+              <h3 className='projects-header'>
+                <span className='project-header-text'>Featured Projects</span>
+              </h3>
+            </div>
+          </div>
+          <div className='project-samples-row row'>
+            <div className='project-samples-col col-lg-7'>
+              <div className='project-sample-1'>
+                {/* <div className='project-image' /> */}
+                <img className='project-image' src='../static/images/planum-australe.png' />
+              </div>
+            </div>
+            <div className='project-samples-col col-lg-5'>
+              <div className='project-sample-info'>
+                A Mars tribute site showcasing transitioning hero images with pure SCSS, animation-on-scroll, responsive design, and a cohesive theme. Built in React using Next.js
+                for SSR.
+              </div>
+              <div className='background-border' />
+            </div>
+          </div>
+          <div className='project-samples-row row'>
+            <div className='project-samples-col col-lg-5'>
+              <div className='project-sample-info-2'>
+                Website created for an imaginary start-up web development business. Uniform design language and responsiveness can be found throughout all pages.
+              </div>
+              <div className='background-border-2' />
+            </div>
+            <div className='project-samples-col col-lg-7'>
+              <div className='project-sample-1'>
+                <div className='project-image' />
+                <img className='project-image' src='../static/images/sourst.png' />
+              </div>
+            </div>
+          </div>
+          <div className='image' />
         </div>
       </Fragment>
     );
