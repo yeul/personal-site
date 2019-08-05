@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Nav from "../components/Nav";
 import Button from "../components/Button";
+import Card from "../components/Card";
 
 import "../styles/main.scss";
 
@@ -47,13 +48,13 @@ class App extends React.Component {
             <div className='about-text-col col-lg-6'>
               <div className='about-text'>
                 <p className='about-paragraph'>
-                  I'm Julia Furman, a web developer based in the DC-metro area looking to work collaboratively with other developers to build high-quality websites. I received a
-                  Bachelor's degree in East Asian Studies and Cybersecurity from University of Maryland University College, am a Certified Surgical Technologist, and am highly
-                  interested in the nexus of technology and security with its ever-increasing importance in today's international landscape.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <p className='about-paragraph'>
                   <br />
-                  My continuing goals are to become increasingly knowlegeable in the realm of web development in addition to cybersecurity.
+                  Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus.
                   <span className='recent-tech'> Below are some of the technologies that I have been using recently:</span>
                 </p>
               </div>
@@ -139,20 +140,43 @@ class App extends React.Component {
           <div className='project-samples-row row'>
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
-                {/* <div className='project-image' /> */}
                 <img className='project-image' src='../static/images/planum-australe.png' />
               </div>
             </div>
             <div className='project-samples-col col-lg-5'>
-              <div className='project-sample-info'>
+              <div className='project-sample-title-1'>
+                <span>01.</span> Planum Australe
+              </div>
+              <ul className='project-tools-ul-1'>
+                <li className='project-tools-item-1'>React</li>
+                <li className='project-tools-item-1'>Next.js</li>
+                <li className='project-tools-item-1'>SCSS</li>
+              </ul>
+              <div className='project-source-links-1'>
+                <i className='github-icon fab fa-github' />
+                <i class='external-link fas fa-external-link-alt' />
+              </div>
+              <div className='project-sample-info-1'>
                 A Mars tribute site showcasing transitioning hero images with pure SCSS, animation-on-scroll, responsive design, and a cohesive theme. Built in React using Next.js
                 for SSR.
               </div>
-              <div className='background-border' />
+              <div className='background-border-1' />
             </div>
           </div>
           <div className='project-samples-row row'>
             <div className='project-samples-col col-lg-5'>
+              <div className='project-sample-title-2'>
+                <span>02.</span> Sourst
+              </div>
+              <ul className='project-tools-ul-2'>
+                <li className='project-tools-item-2'>React</li>
+                <li className='project-tools-item-2'>Next.js</li>
+                <li className='project-tools-item-2'>SCSS</li>
+              </ul>
+              <div className='project-source-links-2'>
+                <i className='github-icon fab fa-github' />
+                <i class='external-link fas fa-external-link-alt' />
+              </div>
               <div className='project-sample-info-2'>
                 Website created for an imaginary start-up web development business. Uniform design language and responsiveness can be found throughout all pages.
               </div>
@@ -165,7 +189,24 @@ class App extends React.Component {
               </div>
             </div>
           </div>
-          <div className='image' />
+        </div>
+        <div className='more-projects-container container'>
+          <div className='more-projects-row row'>
+            <div className='more-projects-header-col col-lg-12'>
+              <h3>More Projects</h3>
+            </div>
+          </div>
+          <div className='more-projects-row row'>
+            <div className='more-projects-col col-lg-4'>
+              <Card appTitle='Full-stack Emaily' />
+            </div>
+            <div className='more-projects-col col-lg-4'>
+              <Card appTitle='React/Redux Streamy' />
+            </div>
+            <div className='more-projects-col col-lg-4'>
+              <Card appTitle='Socket.io Chat App' />
+            </div>
+          </div>
         </div>
       </Fragment>
     );

@@ -1,0 +1,21 @@
+.more-projects-container {
+  margin-top: 250px;
+  .more-projects-header-col {
+    margin-bottom: 100px;
+  }
+
+  .more-projects-col {
+    height: 400px;
+    display: flex;
+    .more-projects-card {
+      width: 100%;
+      background-color: #322f33;
+      box-shadow: 10px 10px 50px rgb(39, 38, 38);
+      transition: 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-15px);
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+}

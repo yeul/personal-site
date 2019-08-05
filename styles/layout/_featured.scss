@@ -13,15 +13,13 @@
 .project-sample-1 {
   margin-top: 100px;
   .project-image {
-    // width: 600px;
-    // height: 300px;
     max-width: 100%;
     background-color: #ff6188;
     border-radius: 6px;
   }
 }
 
-.project-sample-info {
+.project-sample-info-1 {
   font-size: 15px;
   color: #afa6b1;
   font-family: "Ciutadella Regular";
@@ -32,19 +30,31 @@
   background-color: #322f33;
   border-radius: 2px;
   top: 50%;
-  right: 40%;
+  right: 30%;
   z-index: 999;
   box-shadow: 10px 10px 50px rgb(39, 38, 38);
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background-color: #ff6188;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
 }
 
-.background-border {
-  border: 2px solid #78dce8;
+.background-border-1 {
+  border: 2px solid #afa6b1;
   height: 100px;
   width: 400px;
   position: absolute;
   top: 55%;
-  right: 35%;
+  right: 25%;
   border-radius: 2px;
+  transition: 0.8s ease-in-out;
+  &:hover {
+    transform: translate(-25px, -20px);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+  }
 }
 
 .project-sample-info-2 {
@@ -58,19 +68,99 @@
   background-color: #322f33;
   border-radius: 2px;
   top: 50%;
-  left: 40%;
+  left: 30%;
   z-index: 999;
   box-shadow: 10px 10px 50px rgb(39, 38, 38);
   text-align: left;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background-color: #ff6188;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
 }
 
 .background-border-2 {
-  border: 2px solid #78dce8;
+  border: 2px solid #afa6b1;
   height: 100px;
   width: 400px;
   position: absolute;
   top: 55%;
-  left: 35%;
+  left: 25%;
   border-radius: 2px;
   z-index: 2;
+  transition: 0.8s ease-in-out;
+  &:hover {
+    transform: translate(25px, -20px);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+  }
+}
+
+.project-sample-title-1,
+.project-sample-title-2 {
+  font-family: "Ciutadella Semibold";
+  font-size: 20px;
+  position: absolute;
+  top: 42%;
+  color: #afa6b1;
+  span {
+    color: #ff6188;
+  }
+}
+.project-sample-title-1 {
+  left: 36%;
+}
+.project-sample-title-2 {
+  right: 52%;
+}
+
+.project-tools-ul-1,
+.project-tools-ul-2 {
+  position: absolute;
+  top: 80%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 12px;
+  font-family: "FiraCode Regular", monospace;
+  color: #ff6188;
+  .project-tools-item-1,
+  .project-tools-item-2 {
+    padding-right: 10px;
+  }
+}
+
+.project-tools-ul-1 {
+  left: 38%;
+}
+
+.project-tools-ul-2 {
+  right: 44.5%;
+  .project-tools-item-2 {
+    padding-right: 10px;
+  }
+}
+
+.project-source-links-1,
+.project-source-links-2 {
+  position: absolute;
+  top: 94%;
+  .github-icon {
+    color: #afa6b1;
+    font-size: 20px;
+  }
+  .external-link {
+    color: #afa6b1;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+.project-source-links-1 {
+  left: 62%;
+}
+
+.project-source-links-2 {
+  right: 62%;
 }
