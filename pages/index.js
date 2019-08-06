@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Nav from "../components/Nav";
 import Button from "../components/Button";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 
 import "../styles/main.scss";
 
@@ -244,19 +245,17 @@ class App extends React.Component {
           <div className='contact-row row no-gutters'>
             <div className='contact-col col-lg-12'>
               <h3 className='contact-header'>Drop Me a Line</h3>
+              <div className='contact-cta'>
+                I would very much enjoy he opportunity to work with you! <br />
+                Please don't hesitate to get in touch!
+              </div>
+              <div className='contact-button-col col-lg-12'>
+                <Button button='Email Me' />
+              </div>
             </div>
-          </div>
-          <div className='contact-cta-col col-lg-12'>
-            <div className='contact-cta'>
-              I would very much enjoy he opportunity to work with you! <br />
-              Please don't hesitate to get in touch!
-            </div>
-          </div>
-
-          <div className='contact-button-col col-lg-12'>
-            <Button button='Email Me' />
           </div>
         </div>
+        <Footer />
       </Fragment>
     );
   }

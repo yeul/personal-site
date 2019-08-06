@@ -1,0 +1,24 @@
+.footer-container {
+  margin-top: 350px;
+  background-color: #322f33;
+  .footer-col {
+    display: flex;
+    justify-content: center;
+    .footer-info {
+      padding-top: 50px;
+      padding-bottom: 20px;
+      font-family: "FiraCode Regular", monospace;
+      font-size: 13px;
+      color: #afa6b1;
+    }
+  }
+  .footer-icon-col {
+    display: flex;
+    justify-content: center;
+  }
+  .fab {
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: #afa6b1;
+  }
+}
