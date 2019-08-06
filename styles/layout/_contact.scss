@@ -1,0 +1,30 @@
+.contact-container {
+  margin-top: 350px;
+  .contact-row {
+    display: flex;
+    align-items: center;
+    .contact-header {
+      text-align: center;
+      font-family: "Ciutadella Bold";
+      color: #fdf9f3;
+      font-size: 50px;
+    }
+  }
+
+  .contact-cta {
+    text-align: center;
+    font-family: "Ciutadella Regular";
+    // margin-top: 50px;
+    color: #afa6b1;
+    font-size: 18px;
+  }
+
+  .contact-button-col {
+    display: flex;
+    justify-content: center;
+    .button {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}

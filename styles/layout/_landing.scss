@@ -2,7 +2,7 @@
 
 .fa-icon {
   position: fixed;
-  left: 3%;
+  left: 75px;
   @media #{$md-and-smaller} {
     display: none;
   }
@@ -19,7 +19,7 @@
   position: fixed;
   bottom: 24%;
   transform: rotate(-90deg);
-  left: -9%;
+  left: -167px;
   @media #{$md-and-smaller} {
     display: none;
   }
@@ -54,14 +54,6 @@
     .hero-hello {
       margin-bottom: 20px;
       margin-left: 14px;
-    }
-
-    .button-container {
-      .button {
-        margin-top: 50px;
-        width: fit-content;
-        padding: 20px;
-      }
     }
   }
 }

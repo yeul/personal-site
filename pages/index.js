@@ -196,16 +196,65 @@ class App extends React.Component {
               <h3>More Projects</h3>
             </div>
           </div>
-          <div className='more-projects-row row'>
+          <div className='more-projects-row-1 row'>
             <div className='more-projects-col col-lg-4'>
-              <Card appTitle='Full-stack Emaily' />
+              <Card
+                appTitle='Full-stack Emaily'
+                appInfo='Fullstack feedback campaign creation site for business owners based on a Udemy course. Send surverys to your users for feedback.'
+                appTools='Node.js Express React Redux MongoDB'
+              />
             </div>
             <div className='more-projects-col col-lg-4'>
-              <Card appTitle='React/Redux Streamy' />
+              <Card
+                appTitle='React/Redux Streamy'
+                appInfo='This React/Redux application is a live-streaming video app based on a Udemy course.'
+                appTools='React Redux/Redux Thunk'
+              />
             </div>
             <div className='more-projects-col col-lg-4'>
-              <Card appTitle='Socket.io Chat App' />
+              <Card appTitle='Socket.io Chat App' appInfo='Chat application using Node.js, Express, and Socket.io.' appTools='Node.js Express Socket.io' />
             </div>
+          </div>
+          <div className='more-projects-row-2 row'>
+            <div className='more-projects-col col-lg-4'>
+              <Card
+                appTitle='Async/Await Currency Converter'
+                appInfo='Simple currency converter made in order to learn Javascript ES7 feature async/await.'
+                appTools='Javascript ES7'
+              />
+            </div>
+            <div className='more-projects-col col-lg-4'>
+              <Card
+                appTitle='React Pics'
+                appInfo='Based on a Udemy course, this app is a simple photo grid utilizing React and the Unsplash API. Search for photos to show your results.'
+                appTools='React Unsplash API'
+              />
+            </div>
+            <div className='more-projects-col col-lg-4'>
+              <Card appTitle='Tindog' appInfo='Udemy bootcamp website based on the concept of advertising a fake-application called "Tindog".' appTools='HTML CSS Bootstrap 4' />
+            </div>
+          </div>
+          <div className='see-more-row row no-gutters'>
+            <div className='see-more-col col-lg-12'>
+              <Button button='See More on My Github' />
+            </div>
+          </div>
+        </div>
+        <div className='contact-container container'>
+          <div className='contact-row row no-gutters'>
+            <div className='contact-col col-lg-12'>
+              <h3 className='contact-header'>Drop Me a Line</h3>
+            </div>
+          </div>
+          <div className='contact-cta-col col-lg-12'>
+            <div className='contact-cta'>
+              I would very much enjoy he opportunity to work with you! <br />
+              Please don't hesitate to get in touch!
+            </div>
+          </div>
+
+          <div className='contact-button-col col-lg-12'>
+            <Button button='Email Me' />
           </div>
         </div>
       </Fragment>

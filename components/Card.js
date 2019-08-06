@@ -15,14 +15,19 @@ const Card = props => {
         </div>
         <div className='row no-gutters'>
           <div className='col-lg-12'>
-            <div className='cardTest'>{props.appTitle}</div>
+            <div className='appTitle'>{props.appTitle}</div>
           </div>
         </div>
         <div className='row no-gutters'>
-          <div className='col-lg-6'>
-            <div className='cardText'>{props.appInfo}</div>
+          <div className='col-lg-12'>
+            <div className='appInfo'>{props.appInfo}</div>
           </div>
-          <div className='col-lg-6'>
+        </div>
+        <div className='app-tools-row row no-gutters'>
+          <div className='app-tools-text-col col-lg-10'>
+            <div className='app-tools-text'>{props.appTools}</div>
+          </div>
+          <div className='app-tool-github-col col-lg-2'>
             <div className='cardText'>
               <div className='github'>
                 <i className='github-icon fab fa-github' />

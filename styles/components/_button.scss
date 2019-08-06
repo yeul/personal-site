@@ -1,0 +1,18 @@
+.button {
+  margin-top: 50px;
+  width: fit-content;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #ff6188;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ff6188;
+  font-family: "FiraCode Regular", monospace;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    background-color: #ff6188;
+    color: #fdf9f3;
+    transform: translateY(-10px) scale(1.02);
+    transition: 0.4s ease-in-out;
+  }
+}
