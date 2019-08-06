@@ -1,6 +1,6 @@
 .footer-container {
   margin-top: 350px;
-  background-color: #322f33;
+  background-color: $componentBackground;
   .footer-col {
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
       padding-bottom: 20px;
       font-family: "FiraCode Regular", monospace;
       font-size: 13px;
-      color: #afa6b1;
+      color: $main;
     }
   }
   .footer-icon-col {
@@ -19,6 +19,6 @@
   .fab {
     padding-right: 20px;
     padding-bottom: 30px;
-    color: #afa6b1;
+    color: $main;
   }
 }

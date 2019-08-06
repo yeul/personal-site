@@ -7,8 +7,13 @@
 @import "./layout/contact";
 
 //Theme stylesheets
+@import "./themes/colors";
 @import "./themes/default";
 @import "./themes/landing";
+@import "./themes/about";
+@import "./themes/featured";
+@import "./themes/more-projects";
+@import "./themes/contact";
 
 //Components stylesheets
 @import "./components/button";

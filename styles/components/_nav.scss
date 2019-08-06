@@ -22,25 +22,25 @@
   .nav-li {
     .nav-num {
       padding-right: 10px;
-      color: #ff6188;
+      color: $pinkAccent;
     }
     .nav-link-name {
       margin-right: 50px;
-      color: #fdf9f3;
+      color: $lightest;
       transition: 0.2s ease-in-out;
       &:hover {
         transition: 0.2s ease-in-out;
-        color: #ff6188;
+        color: $pinkAccent;
       }
     }
     .link-resume {
       padding: 10px;
-      border: 1px solid #ff6188;
+      border: 1px solid $pinkAccent;
       border-radius: 4px;
-      color: #ff6188;
+      color: $pinkAccent;
       &:hover {
         transition: 0.2s ease-in-out;
-        background-color: #ff6188;
+        background-color: $pinkAccent;
         color: white;
       }
     }

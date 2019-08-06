@@ -185,7 +185,6 @@ class App extends React.Component {
             </div>
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
-                <div className='project-image' />
                 <img className='project-image' src='../static/images/sourst.png' />
               </div>
             </div>

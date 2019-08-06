@@ -1,0 +1,11 @@
+.more-projects-col {
+  .more-projects-card {
+    background-color: $componentBackground;
+    box-shadow: 10px 10px 50px rgb(39, 38, 38);
+    transition: 0.2s ease-in-out;
+    &:hover {
+      transform: translateY(-15px);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

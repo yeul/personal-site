@@ -1,0 +1,78 @@
+.project-header-text {
+  color: $lightest;
+  font-size: 30px;
+  font-family: "FiraCode Regular", monospace;
+  border-bottom: 1px solid $pinkAccent;
+}
+
+.project-sample-info-1,
+.project-sample-info-2 {
+  font-size: 15px;
+  color: $main;
+  font-family: "Ciutadella Regular";
+  background-color: $componentBackground;
+  box-shadow: 10px 10px 50px rgb(39, 38, 38);
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background-color: $pinkAccent;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.project-sample-info-2 {
+  text-align: left;
+}
+
+.background-border-1,
+.background-border-2 {
+  border: 2px solid $main;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 55%;
+  border-radius: 2px;
+  transition: 0.8s ease-in-out;
+  &:hover {
+    transform: translate(-25px, -20px);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+  }
+}
+
+.background-border-1 {
+  right: 25%;
+}
+
+.background-border-2 {
+  left: 25%;
+}
+
+.project-sample-title-1,
+.project-sample-title-2 {
+  font-family: "Ciutadella Semibold";
+  font-size: 20px;
+  color: $main;
+  span {
+    color: $pinkAccent;
+  }
+}
+
+.project-tools-ul-1,
+.project-tools-ul-2 {
+  font-size: 12px;
+  font-family: "FiraCode Regular", monospace;
+  color: $pinkAccent;
+}
+
+.project-source-links-1,
+.project-source-links-2 {
+  .github-icon {
+    color: $main;
+    font-size: 20px;
+  }
+  .external-link {
+    color: $main;
+    font-size: 20px;
+  }
+}

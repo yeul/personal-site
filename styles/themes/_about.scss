@@ -1,0 +1,80 @@
+.about-title {
+  color: #fdf9f3;
+  font-size: 30px;
+  font-family: "FiraCode Regular", monospace;
+  border-bottom: 1px solid #ff6188;
+}
+
+.about-paragraph {
+  color: $main;
+  font-family: "Ciutadella Regular";
+}
+
+.skills {
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  font-size: 13px;
+  color: $main;
+  letter-spacing: 1px;
+  li {
+    &:before {
+      content: "▹";
+      color: $pinkAccent;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+.recent-tech {
+  color: $pinkAccent;
+}
+
+.more-skills-title {
+  color: $lightest;
+  font-size: 30px;
+  font-family: "FiraCode Regular", monospace;
+  border-bottom: 1px solid $pinkAccent;
+}
+
+.more-skills-1-p,
+.more-skills-2-p {
+  color: $main;
+  font-family: "Ciutadella Regular";
+}
+
+.more-skills-1 {
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  font-size: 13px;
+  color: $main;
+  letter-spacing: 1px;
+  li {
+    &:before {
+      content: "▹";
+      color: #ff6188;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+.more-skills-2a,
+.more-skills-2b {
+  list-style: none;
+  font-family: "FiraCode Regular", monospace;
+  font-size: 13px;
+  color: $main;
+  li {
+    &:before {
+      content: "▹";
+      color: $pinkAccent;
+      letter-spacing: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+.more-skills-2b {
+  text-align: right;
+}
