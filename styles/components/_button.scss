@@ -11,8 +11,11 @@
   transition: 0.4s ease-in-out;
   &:hover {
     background-color: $pinkAccent;
+    background-image: linear-gradient(43deg, #ff6188 0%, #fc9867 50%, #ffd866 94%);
     color: $lightest;
     transform: translateY(-10px) scale(1.02);
     transition: 0.4s ease-in-out;
+    box-shadow: 10px 10px 50px rgb(39, 38, 38);
+    border: none;
   }
 }

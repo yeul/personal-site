@@ -13,8 +13,12 @@ const Footer = () => {
         </div>
         <div className='footer-icon-row row no-gutters'>
           <div className='footer-icon-col col-lg-12'>
-            <i className='footer-github fab fa-github' />
-            <i className='footer-linkedin fab fa-linkedin-in' />
+            <a className='footer-github' href='https://github.com/yeul' target='_blank'>
+              <i className='footer-github fab fa-github' />
+            </a>
+            <a className='footer-github' href='#' target='_blank'>
+              <i className='footer-linkedin fab fa-linkedin-in' />
+            </a>
           </div>
         </div>
       </div>

@@ -24,16 +24,20 @@
       padding-right: 10px;
       color: $pinkAccent;
     }
-    .nav-link-name {
+    .nav-link-email,
+    .nav-link-github,
+    .nav-link-link,
+    .nav-link-resume {
       margin-right: 50px;
       color: $lightest;
       transition: 0.2s ease-in-out;
       &:hover {
         transition: 0.2s ease-in-out;
         color: $pinkAccent;
+        text-decoration: none;
       }
     }
-    .link-resume {
+    .nav-link-resume {
       padding: 10px;
       border: 1px solid $pinkAccent;
       border-radius: 4px;

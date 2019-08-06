@@ -1,7 +1,8 @@
 .project-header-text {
   color: $lightest;
+  font-family: "Ciutadella SemiBold Italic";
   font-size: 30px;
-  font-family: "FiraCode Regular", monospace;
+  letter-spacing: 2px;
   border-bottom: 1px solid $pinkAccent;
 }
 
@@ -33,6 +34,10 @@
   top: 55%;
   border-radius: 2px;
   transition: 0.8s ease-in-out;
+}
+
+.background-border-1 {
+  right: 25%;
   &:hover {
     transform: translate(-25px, -20px);
     opacity: 0;
@@ -40,12 +45,13 @@
   }
 }
 
-.background-border-1 {
-  right: 25%;
-}
-
 .background-border-2 {
   left: 25%;
+  &:hover {
+    transform: translate(25px, -20px);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+  }
 }
 
 .project-sample-title-1,

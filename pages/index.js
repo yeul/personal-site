@@ -11,12 +11,16 @@ class App extends React.Component {
     return (
       <Fragment>
         <Nav />
-        <i className='fa-icon fab fa-github' />
-        <i className='fa-icon fab fa-linkedin-in' />
+        <a className='fa-icon-1' href='https://github.com/yeul' target='_blank'>
+          <i className='fa-icon fab fa-github' />
+        </a>
+        <a className='fa-icon-2' href='#' target='_blank'>
+          <i className='fa-icon fab fa-linkedin-in' />
+        </a>
         <div className='sideways-links'>
           <span className='vertical-line-top'>
             <span className='email-span'>
-              <a className='email' href='#'>
+              <a className='email' href='mailto:mpscqw@gmail.com' target='_top'>
                 mpscqw@gmail.com
               </a>
             </span>
@@ -32,7 +36,9 @@ class App extends React.Component {
                   I design and build things for the web.
                   <span className='blinking-cursor' />
                 </h2>
-                <Button button='Get in Touch with Me' />
+                <a className='email-button-link' href='mailto:mpscqw@gmail.com' target='_top'>
+                  <Button button='Get in Touch with Me' />
+                </a>
               </div>
             </div>
           </div>
@@ -141,7 +147,9 @@ class App extends React.Component {
           <div className='project-samples-row row'>
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
-                <img className='project-image' src='../static/images/planum-australe.png' />
+                <a href='https://portfolio-1.mpscqw.now.sh/' target='_blank'>
+                  <img className='project-image' src='../static/images/planum-australe.png' />
+                </a>
               </div>
             </div>
             <div className='project-samples-col col-lg-5'>
@@ -154,8 +162,12 @@ class App extends React.Component {
                 <li className='project-tools-item-1'>SCSS</li>
               </ul>
               <div className='project-source-links-1'>
-                <i className='github-icon fab fa-github' />
-                <i class='external-link fas fa-external-link-alt' />
+                <a href='https://github.com/yeul/portfolio-1' target='_blank'>
+                  <i className='github-icon fab fa-github' />
+                </a>
+                <a href='#' target='_blank'>
+                  <i className='external-link fas fa-external-link-alt' />
+                </a>
               </div>
               <div className='project-sample-info-1'>
                 A Mars tribute site showcasing transitioning hero images with pure SCSS, animation-on-scroll, responsive design, and a cohesive theme. Built in React using Next.js
@@ -175,8 +187,12 @@ class App extends React.Component {
                 <li className='project-tools-item-2'>SCSS</li>
               </ul>
               <div className='project-source-links-2'>
-                <i className='github-icon fab fa-github' />
-                <i class='external-link fas fa-external-link-alt' />
+                <a href='https://github.com/yeul/portfolio-2' target='_blank'>
+                  <i className='github-icon fab fa-github' />
+                </a>
+                <a href='#' target='_blank'>
+                  <i class='external-link fas fa-external-link-alt' />
+                </a>
               </div>
               <div className='project-sample-info-2'>
                 Website created for an imaginary start-up web development business. Uniform design language and responsiveness can be found throughout all pages.
@@ -185,7 +201,9 @@ class App extends React.Component {
             </div>
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
-                <img className='project-image' src='../static/images/sourst.png' />
+                <a href='https://portfolio-2.mpscqw.now.sh/' target='_blank'>
+                  <img className='project-image' src='../static/images/sourst.png' />
+                </a>
               </div>
             </div>
           </div>
@@ -193,7 +211,9 @@ class App extends React.Component {
         <div className='more-projects-container container'>
           <div className='more-projects-row row'>
             <div className='more-projects-header-col col-lg-12'>
-              <h3>More Projects</h3>
+              <h3 className='more-projects-header'>
+                <span className='more-projects-header-text'>More Projects</span>
+              </h3>
             </div>
           </div>
           <div className='more-projects-row-1 row'>
@@ -202,6 +222,7 @@ class App extends React.Component {
                 appTitle='Full-stack Emaily'
                 appInfo='Fullstack feedback campaign creation site for business owners based on a Udemy course. Send surverys to your users for feedback.'
                 appTools='Node.js Express React Redux MongoDB'
+                githubLink='https://github.com/yeul/fullstack-emaily'
               />
             </div>
             <div className='more-projects-col col-lg-4'>
@@ -209,10 +230,16 @@ class App extends React.Component {
                 appTitle='React/Redux Streamy'
                 appInfo='This React/Redux application is a live-streaming video app based on a Udemy course.'
                 appTools='React Redux/Redux Thunk'
+                githubLink='https://github.com/yeul/react-redux-streamy'
               />
             </div>
             <div className='more-projects-col col-lg-4'>
-              <Card appTitle='Socket.io Chat App' appInfo='Chat application using Node.js, Express, and Socket.io.' appTools='Node.js Express Socket.io' />
+              <Card
+                appTitle='Socket.io Chat App'
+                appInfo='Chat application using Node.js, Express, and Socket.io.'
+                appTools='Node.js Express Socket.io'
+                githubLink='https://github.com/yeul/socket.io-chat-app'
+              />
             </div>
           </div>
           <div className='more-projects-row-2 row'>
@@ -221,6 +248,7 @@ class App extends React.Component {
                 appTitle='Async/Await Currency Converter'
                 appInfo='Simple currency converter made in order to learn Javascript ES7 feature async/await.'
                 appTools='Javascript ES7'
+                githubLink='https://github.com/yeul/async-await-currency-converter'
               />
             </div>
             <div className='more-projects-col col-lg-4'>
@@ -228,15 +256,23 @@ class App extends React.Component {
                 appTitle='React Pics'
                 appInfo='Based on a Udemy course, this app is a simple photo grid utilizing React and the Unsplash API. Search for photos to show your results.'
                 appTools='React Unsplash API'
+                githubLink='https://github.com/yeul/react-pics'
               />
             </div>
             <div className='more-projects-col col-lg-4'>
-              <Card appTitle='Tindog' appInfo='Udemy bootcamp website based on the concept of advertising a fake-application called "Tindog".' appTools='HTML CSS Bootstrap 4' />
+              <Card
+                appTitle='Tindog'
+                appInfo='Udemy bootcamp website based on the concept of advertising a fake-application called "Tindog".'
+                appTools='HTML CSS Bootstrap 4'
+                githubLink='https://github.com/yeul/tindog'
+              />
             </div>
           </div>
           <div className='see-more-row row no-gutters'>
             <div className='see-more-col col-lg-12'>
-              <Button button='See More on My Github' />
+              <a className='see-more-button-link' href='https://github.com/yeul?tab=repositories' target='_blank'>
+                <Button button='See More on My Github' />
+              </a>
             </div>
           </div>
         </div>
@@ -249,7 +285,9 @@ class App extends React.Component {
                 Please don't hesitate to get in touch!
               </div>
               <div className='contact-button-col col-lg-12'>
-                <Button button='Email Me' />
+                <a className='email-button-link' href='mailto:mpscqw@gmail.com' target='_top'>
+                  <Button button='Email Me' />
+                </a>
               </div>
             </div>
           </div>

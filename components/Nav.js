@@ -10,22 +10,43 @@ class Nav extends React.Component {
         <div className='nav-container container-fluid'>
           <div className='nav-row row no-gutters'>
             <div className='nav-col-left col-lg-1'>
-              <img className='self-logo' src='../static/images/self-logo.svg' />
+              <a href='#'>
+                <img className='self-logo' src='../static/images/self-logo.svg' />
+              </a>
             </div>
             <div className='nav-col-right col-lg-11'>
               <div className='navLinks'>
                 <ul className='nav-ul'>
                   <li className='nav-li'>
-                    <span className='nav-num'>.01</span> <span className='nav-link-name'>Email</span>
+                    <span className='nav-num'>.01</span>
+                    <span className='nav-link-name'>
+                      <a className='nav-link-email' href='mailto:mpscqw@gmail.com' target='_top'>
+                        Email
+                      </a>
+                    </span>
                   </li>
                   <li className='nav-li'>
-                    <span className='nav-num'>.02</span> <span className='nav-link-name'>Github</span>
+                    <span className='nav-num'>.02</span>
+                    <span className='nav-link-name'>
+                      <a className='nav-link-github' href='https://github.com/yeul' target='_blank'>
+                        Github
+                      </a>
+                    </span>
                   </li>
                   <li className='nav-li'>
-                    <span className='nav-num'>.03</span> <span className='nav-link-name'>LinkedIn</span>
+                    <span className='nav-num'>.03</span>{" "}
+                    <span className='nav-link-name'>
+                      <a className='nav-link-link' href='#'>
+                        LinkedIn
+                      </a>
+                    </span>
                   </li>
                   <li className='nav-li'>
-                    <span className='nav-link-name link-resume'>Résumé</span>
+                    <span className='nav-link-name link-resume'>
+                      <a className='nav-link-resume' href='#'>
+                        Résumé
+                      </a>
+                    </span>
                   </li>
                 </ul>
               </div>

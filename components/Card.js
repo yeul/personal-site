@@ -29,8 +29,10 @@ const Card = props => {
           </div>
           <div className='app-tool-github-col col-lg-2'>
             <div className='cardText'>
-              <div className='github'>
-                <i className='github-icon fab fa-github' />
+              <div className='github-div'>
+                <a className='github' href={props.githubLink} target='_blank'>
+                  <i className='github-icon fab fa-github' />
+                </a>
               </div>
             </div>
           </div>

@@ -9,3 +9,26 @@
     }
   }
 }
+
+.more-projects-header-text {
+  color: $lightest;
+  font-family: "Ciutadella SemiBold Italic";
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ff6188;
+}
+
+.see-more-button-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.github {
+  transition: 0.2s ease-in-out;
+  &:hover {
+    text-decoration: none;
+    color: $pinkAccent;
+    transition: 0.2s ease-in-out;
+  }
+}
