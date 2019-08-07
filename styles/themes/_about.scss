@@ -1,9 +1,15 @@
-.about-title {
-  color: #fdf9f3;
-  font-family: "Ciutadella SemiBold Italic";
-  font-size: 30px;
-  letter-spacing: 2px;
-  border-bottom: 1px solid #ff6188;
+.about-section-header-col {
+  @media #{$md-and-smaller} {
+    margin-top: 80px;
+  }
+
+  .about-title {
+    color: $lightest;
+    font-family: "Ciutadella SemiBold Italic";
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid $pinkAccent;
+  }
 }
 
 .about-paragraph {
@@ -11,18 +17,24 @@
   font-family: "Ciutadella Regular";
 }
 
-.skills {
-  list-style: none;
-  font-family: "FiraCode Regular", monospace;
-  font-size: 13px;
-  color: $main;
-  letter-spacing: 1px;
-  li {
-    &:before {
-      content: "▹";
-      color: $pinkAccent;
-      letter-spacing: 10px;
-      font-size: 18px;
+.skills-col {
+  @media #{$md-and-smaller} {
+    width: 50%;
+  }
+
+  .skills {
+    list-style: none;
+    font-family: "FiraCode Regular", monospace;
+    font-size: 13px;
+    color: $main;
+    letter-spacing: 1px;
+    li {
+      &:before {
+        content: "▹";
+        color: $pinkAccent;
+        letter-spacing: 10px;
+        font-size: 18px;
+      }
     }
   }
 }
@@ -31,12 +43,21 @@
   color: $pinkAccent;
 }
 
-.more-skills-title {
-  color: $lightest;
-  font-family: "Ciutadella SemiBold Italic";
-  font-size: 30px;
-  letter-spacing: 2px;
-  border-bottom: 1px solid $pinkAccent;
+.more-skills-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  @media #{$md-and-smaller} {
+    justify-content: flex-end;
+  }
+
+  .more-skills-title {
+    color: $lightest;
+    font-family: "Ciutadella SemiBold Italic";
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid $pinkAccent;
+  }
 }
 
 .more-skills-1-p,
@@ -51,10 +72,15 @@
   font-size: 13px;
   color: $main;
   letter-spacing: 1px;
+  @media #{$md-and-smaller} {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
   li {
     &:before {
       content: "▹";
-      color: #ff6188;
+      color: $pinkAccent;
       letter-spacing: 10px;
       font-size: 18px;
     }
@@ -74,9 +100,42 @@
       letter-spacing: 10px;
       font-size: 18px;
     }
+
+    @media #{$md-and-smaller} {
+      &:after {
+        content: "◃";
+        color: $pinkAccent;
+        letter-spacing: 10px;
+        font-size: 18px;
+      }
+      &:before {
+        content: "";
+      }
+    }
   }
 }
 
-.more-skills-2b {
-  text-align: right;
+.more-skills-col-1 {
+  @media #{$md-and-smaller} {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .more-skills-2a {
+    @media #{$md-and-smaller} {
+      padding-left: 0px;
+      text-align: right;
+    }
+  }
+}
+
+.more-skills-col-2 {
+  @media #{$md-and-smaller} {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .more-skills-2b {
+    text-align: right;
+    @media #{$md-and-smaller} {
+    }
+  }
 }

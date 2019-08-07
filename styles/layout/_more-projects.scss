@@ -4,11 +4,23 @@
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
+    @media #{$md-and-smaller} {
+      margin-bottom: 50px;
+    }
+  }
+
+  .more-projects-row-2 {
+    @media #{$md-and-smaller} {
+      margin-top: 0px;
+    }
   }
 
   .more-projects-col {
     height: 400px;
     display: flex;
+    @media #{$md-and-smaller} {
+      margin-bottom: 20px;
+    }
     .more-projects-card {
       width: 100%;
     }

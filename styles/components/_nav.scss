@@ -5,12 +5,21 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  @media #{$md-and-smaller} {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .self-logo {
   max-width: 50px;
   margin-left: 50px;
   margin-bottom: 16px;
+  @media #{$md-and-smaller} {
+    margin-left: 0px;
+  }
 }
 
 .nav-ul {
@@ -19,7 +28,15 @@
   justify-content: flex-end;
   margin-top: 50px;
   list-style: none;
+  @media #{$md-and-smaller} {
+    margin-top: 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .nav-li {
+    @media #{$md-and-smaller} {
+      margin-top: 22px;
+    }
     .nav-num {
       padding-right: 10px;
       color: $pinkAccent;
@@ -42,6 +59,10 @@
       border: 1px solid $pinkAccent;
       border-radius: 4px;
       color: $pinkAccent;
+      @media #{$md-and-smaller} {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
       &:hover {
         transition: 0.2s ease-in-out;
         background-color: $pinkAccent;
