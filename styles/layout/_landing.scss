@@ -3,6 +3,9 @@
 .fa-icon {
   position: fixed;
   left: 75px;
+  @media only screen and (min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2) {
+    display: none;
+  }
   @media #{$md-and-smaller} {
     display: none;
   }
@@ -20,6 +23,9 @@
   bottom: 24%;
   transform: rotate(-90deg);
   left: -167px;
+  @media only screen and (min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2) {
+    display: none;
+  }
   @media #{$md-and-smaller} {
     display: none;
   }
@@ -35,7 +41,9 @@
       justify-content: flex-end;
       align-items: flex-end;
       margin-left: 150px;
-
+      @media #{$ie11} {
+        margin-top: -10px;
+      }
       .email {
         margin-top: 5px;
         padding-left: 36px;
@@ -60,6 +68,11 @@
       @media #{$md-and-smaller} {
         margin-left: 0px;
         margin-top: 50px;
+      }
+    }
+    .button {
+      @media #{$ie11} {
+        display: inline-block;
       }
     }
   }

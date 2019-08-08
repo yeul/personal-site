@@ -45,7 +45,7 @@
 
 .more-skills-header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 100px;
   @media #{$md-and-smaller} {
     justify-content: flex-end;

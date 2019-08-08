@@ -1,3 +1,5 @@
+@import "../base/media-queries";
+
 .projects-header-col {
   display: flex;
   justify-content: center;
@@ -6,6 +8,9 @@
 
 .project-sample-1 {
   margin-top: 100px;
+  @media #{$md-and-smaller} {
+    margin-top: 50px;
+  }
   .project-image {
     max-width: 100%;
   }
@@ -90,4 +95,19 @@
 
 .project-source-links-2 {
   right: 62%;
+}
+
+.project-sample-title-1,
+.project-tools-ul-1,
+.project-source-links-1,
+.project-sample-info-1,
+.background-border-1,
+.project-sample-title-2,
+.project-tools-ul-2,
+.project-source-links-2,
+.project-sample-info-2,
+.background-border-2 {
+  @media #{$md-and-smaller} {
+    display: none;
+  }
 }
