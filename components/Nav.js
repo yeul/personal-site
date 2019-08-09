@@ -10,7 +10,7 @@ class Nav extends React.Component {
         <div className='nav-container container-fluid'>
           <div className='nav-row row no-gutters'>
             <div className='nav-col-left col-lg-1'>
-              <a href='#'>
+              <a href='/'>
                 <img className='self-logo' src='../static/images/self-logo.svg' />
               </a>
             </div>
@@ -34,9 +34,17 @@ class Nav extends React.Component {
                     </span>
                   </li>
                   <li className='nav-li'>
-                    <span className='nav-num'>.03</span>{" "}
+                    <span className='nav-num'>.03</span>
                     <span className='nav-link-name'>
-                      <a className='nav-link-link' href='#'>
+                      <Link href='/art'>
+                        <a className='nav-link-link'>Art</a>
+                      </Link>
+                    </span>
+                  </li>
+                  <li className='nav-li'>
+                    <span className='nav-num'>.04</span>
+                    <span className='nav-link-name'>
+                      <a className='nav-link-link' href='/' target='_blank'>
                         LinkedIn
                       </a>
                     </span>

@@ -1,3 +1,12 @@
-.image {
-  max-width: 100%;
+@import "../themes/colors";
+.art-container {
+  .header-div {
+    margin-top: 40px;
+  }
+  .year-header {
+    margin-bottom: 20px;
+  }
+  .image {
+    max-width: 100%;
+  }
 }

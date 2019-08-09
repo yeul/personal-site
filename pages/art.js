@@ -11,11 +11,13 @@ class Art extends React.Component {
     return (
       <Fragment>
         <Nav />
-        <div className='container'>
+        <div className='art-container container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='illustration-header-div'>
-                <h3 className='illustration-header'>Illustrations</h3>
+              <div className='header-div'>
+                <h3 className='illustration-header'>
+                  <span className='header-span'>Illustrations</span>
+                </h3>
               </div>
             </div>
           </div>
@@ -93,8 +95,10 @@ class Art extends React.Component {
           </div>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='scultp-header-div'>
-                <h3 className='sculpt-header'>Sculpts</h3>
+              <div className='header-div'>
+                <h3 className='sculpt-header'>
+                  <span className='header-span'>Sculpts</span>
+                </h3>
               </div>
             </div>
           </div>
@@ -149,15 +153,17 @@ class Art extends React.Component {
           </div>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='sketch-header-div'>
-                <h3 className='sketch-header'>Sketches</h3>
+              <div className='header-div'>
+                <h3 className='sketch-header'>
+                  <span className='header-span'>Sketches</span>
+                </h3>
               </div>
             </div>
           </div>
           <div className='row'>
             <div className='col-lg-12'>
               <div className='year-header-div'>
-                <h3 className='year-header'>2017</h3>
+                <h3 className='year-header'>2016-2017</h3>
               </div>
             </div>
           </div>

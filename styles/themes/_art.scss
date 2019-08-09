@@ -1,0 +1,14 @@
+.art-container {
+  color: $lightest;
+  font-family: "Ciutadella SemiBold Italic";
+  .header-span {
+    letter-spacing: 1px;
+    border-bottom: 1px solid $pinkAccent;
+  }
+  .year-header {
+    font-size: 16px;
+  }
+  .card {
+    border: none;
+  }
+}
