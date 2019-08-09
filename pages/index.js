@@ -135,6 +135,13 @@ class App extends React.Component {
                 <li>3dsMax</li>
               </ul>
             </div>
+            <div className='art-portfolio-btn-div col-lg-12'>
+              <Link href='/art'>
+                <a>
+                  <Button button='Click to See Art Portfolio' />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
         <div className='projects-container container'>

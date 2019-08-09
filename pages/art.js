@@ -232,7 +232,9 @@ class Art extends React.Component {
               <a href='../static/images/my-art/Sketches/2016/dec-2016-4.png' data-lity data-lity-desc='Human body anatomy sketch - December 2016'>
                 <img className='image' src='../static/images/my-art/Sketches/2016/dec-2016-4.png' alt='' />
               </a>
-              <span className='sr-only'>Human body anatomy sketch - December 2016</span>
+              <span c lassName='sr-only'>
+                Human body anatomy sketch - December 2016
+              </span>
             </div>
           </div>
         </div>
