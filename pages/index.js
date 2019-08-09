@@ -56,13 +56,13 @@ class App extends React.Component {
             <div className='about-text-col col-lg-6'>
               <div className='about-text'>
                 <p className='about-paragraph'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  I'm Julia Furman, a web developer based in the DC-metro area looking to work collaboratively with other developers to build high-quality websites. I received a
+                  Bachelor's degree in East Asian Studies and Cybersecurity from University of Maryland University College, am a Certified Surgical Technologist, and am highly
+                  interested in the nexus of technology and security with its ever-increasing importance in today's international landscape.
                 </p>
                 <p className='about-paragraph'>
                   <br />
-                  Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus.
+                  My continuing goals are to become increasingly knowledgeable in the realm of web development in addition to cybersecurity.
                   <span className='recent-tech'> Below are some of the technologies that I have been using recently:</span>
                 </p>
               </div>
