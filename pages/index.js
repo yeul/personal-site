@@ -156,7 +156,7 @@ class App extends React.Component {
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
                 <a href='https://portfolio-1.mpscqw.now.sh/' target='_blank'>
-                  <img className='project-image' src='../static/images/planum-australe.png' />
+                  <img className='project-image' src='../static/images/planum-australe.png' alt='Image of Planum Australe portfolio site that links to site when clicked.' />
                 </a>
               </div>
             </div>
@@ -199,7 +199,7 @@ class App extends React.Component {
                   <i className='github-icon fab fa-github' />
                 </a>
                 <a href='#' target='_blank'>
-                  <i class='external-link fas fa-external-link-alt' />
+                  <i className='external-link fas fa-external-link-alt' />
                 </a>
               </div>
               <div className='project-sample-info-2'>
@@ -210,7 +210,7 @@ class App extends React.Component {
             <div className='project-samples-col col-lg-7'>
               <div className='project-sample-1'>
                 <a href='https://portfolio-2.mpscqw.now.sh/' target='_blank'>
-                  <img className='project-image' src='../static/images/sourst.png' />
+                  <img className='project-image' src='../static/images/sourst.png' alt='Image of Sourst portfolio site that links to site when clicked.' />
                 </a>
               </div>
             </div>
