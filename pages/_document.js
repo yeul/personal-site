@@ -16,17 +16,20 @@ class myApp extends Document {
           />
           {/*Font Awesome*/}
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css' />
-          {/* Google Fonts
-          <link href='https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap' rel='stylesheet' /> */}
+          {/*Lity Lightbox*/}
+          <link href='https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css' rel='stylesheet' />
         </Head>
         <body>
           <Main />
           <NextScript />
+          {/*Bootstrap scripts*/}
           <script
             src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
             integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
             crossOrigin='anonymous'
           />
+          {/*Lity Lightbox script*/}
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.js' />
           <script
             src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'
             integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49'
