@@ -5,6 +5,7 @@
   left: 75px;
   @media only screen and (min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2) {
     display: none;
+    opacity: 0;
   }
   @media #{$md-and-smaller} {
     display: none;
@@ -25,6 +26,7 @@
   left: -167px;
   @media only screen and (min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2) {
     display: none;
+    opacity: 0;
   }
   @media #{$md-and-smaller} {
     display: none;
