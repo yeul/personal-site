@@ -21,8 +21,8 @@ class App extends React.Component {
         <div className='sideways-links'>
           <span className='vertical-line-top'>
             <span className='email-span'>
-              <a className='email' href='mailto:mpscqw@gmail.com' target='_top'>
-                mpscqw@gmail.com
+              <a className='email' href='mailto:juliamfurman@gmail.com' target='_top'>
+                juliamfurman@gmail.com
               </a>
             </span>
           </span>
@@ -37,7 +37,7 @@ class App extends React.Component {
                   I design and build things for the web.
                   <span className='blinking-cursor' />
                 </h2>
-                <a className='email-button-link' href='mailto:mpscqw@gmail.com' target='_top'>
+                <a className='email-button-link' href='mailto:juliamfurman@gmail.com' target='_top'>
                   <Button button='Get in Touch with Me' />
                 </a>
               </div>
@@ -293,7 +293,7 @@ class App extends React.Component {
                 Please don't hesitate to get in touch!
               </div>
               <div className='contact-button-col col-lg-12'>
-                <a className='email-button-link' href='mailto:mpscqw@gmail.com' target='_top'>
+                <a className='email-button-link' href='mailto:juliamfurman@gmail.com' target='_top'>
                   <Button button='Email Me' />
                 </a>
               </div>

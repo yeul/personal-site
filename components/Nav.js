@@ -20,7 +20,7 @@ class Nav extends React.Component {
                   <li className='nav-li'>
                     <span className='nav-num'>.01</span>
                     <span className='nav-link-name'>
-                      <a className='nav-link-email' href='mailto:mpscqw@gmail.com' target='_top'>
+                      <a className='nav-link-email' href='mailto:juliamfurman@gmail.com' target='_top'>
                         Email
                       </a>
                     </span>

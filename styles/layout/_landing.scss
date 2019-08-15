@@ -41,12 +41,15 @@
       justify-content: flex-end;
       align-items: flex-end;
       margin-left: 150px;
+      margin-right: 150px;
+      width: fit-content;
       @media #{$ie11} {
         margin-top: -10px;
       }
       .email {
         margin-top: 5px;
         padding-left: 36px;
+        padding-right: 36px;
       }
     }
   }
