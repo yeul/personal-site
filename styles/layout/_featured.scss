@@ -43,7 +43,8 @@
 }
 
 .project-sample-title-1,
-.project-sample-title-2 {
+.project-sample-title-2,
+.project-sample-title-3 {
   position: absolute;
   top: 42%;
 }
@@ -54,6 +55,10 @@
 
 .project-sample-title-2 {
   right: 52%;
+}
+
+.project-sample-title-3 {
+  left: 49%;
 }
 
 .project-tools-ul-1,
@@ -106,7 +111,8 @@
 .project-tools-ul-2,
 .project-source-links-2,
 .project-sample-info-2,
-.background-border-2 {
+.background-border-2,
+.project-sample-title-3 {
   @media #{$md-and-smaller} {
     display: none;
   }

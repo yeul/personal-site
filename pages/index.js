@@ -226,7 +226,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className='project-samples-col col-lg-5'>
-              <div className='project-sample-title-1'>
+              <div className='project-sample-title-3'>
                 <span>03.</span> Topdogs
               </div>
               <ul className='project-tools-ul-1'>
