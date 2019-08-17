@@ -15,7 +15,7 @@ class App extends React.Component {
         <a className='fa-icon-1' href='https://github.com/yeul' target='_blank'>
           <i className='fa-icon fab fa-github' />
         </a>
-        <a className='fa-icon-2' href='/' target='_blank'>
+        <a className='fa-icon-2' href='https://www.linkedin.com/in/juliafurman/' target='_blank'>
           <i className='fa-icon fab fa-linkedin-in' />
         </a>
         <div className='sideways-links'>
