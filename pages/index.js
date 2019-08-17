@@ -168,12 +168,13 @@ class App extends React.Component {
                 <li className='project-tools-item-1'>React</li>
                 <li className='project-tools-item-1'>Next.js</li>
                 <li className='project-tools-item-1'>SCSS</li>
+                <li className='project-tools-item-1'>Bootstrap</li>
               </ul>
               <div className='project-source-links-1'>
                 <a href='https://github.com/yeul/portfolio-1' target='_blank'>
                   <i className='github-icon fab fa-github' />
                 </a>
-                <a href='#' target='_blank'>
+                <a href='https://portfolio-1.mpscqw.now.sh/' target='_blank'>
                   <i className='external-link fas fa-external-link-alt' />
                 </a>
               </div>
@@ -193,12 +194,13 @@ class App extends React.Component {
                 <li className='project-tools-item-2'>React</li>
                 <li className='project-tools-item-2'>Next.js</li>
                 <li className='project-tools-item-2'>SCSS</li>
+                <li className='project-tools-item-1'>Bootstrap</li>
               </ul>
               <div className='project-source-links-2'>
                 <a href='https://github.com/yeul/portfolio-2' target='_blank'>
                   <i className='github-icon fab fa-github' />
                 </a>
-                <a href='#' target='_blank'>
+                <a href='https://portfolio-2.mpscqw.now.sh/' target='_blank'>
                   <i className='external-link fas fa-external-link-alt' />
                 </a>
               </div>
@@ -213,6 +215,38 @@ class App extends React.Component {
                   <img className='project-image' src='../static/images/sourst.png' alt='Image of Sourst portfolio site that links to site when clicked.' />
                 </a>
               </div>
+            </div>
+          </div>
+          <div className='project-samples-row row'>
+            <div className='project-samples-col col-lg-7'>
+              <div className='project-sample-1'>
+                <a href='https://puppies-portfolio-3.mpscqw.now.sh/' target='_blank'>
+                  <img className='project-image' src='../static/images/topdogs.png' alt='Image of Topdogs portfolio site that links to site when clicked.' />
+                </a>
+              </div>
+            </div>
+            <div className='project-samples-col col-lg-5'>
+              <div className='project-sample-title-1'>
+                <span>03.</span> Topdogs
+              </div>
+              <ul className='project-tools-ul-1'>
+                <li className='project-tools-item-1'>React</li>
+                <li className='project-tools-item-1'>Next.js</li>
+                <li className='project-tools-item-1'>SCSS</li>
+                <li className='project-tools-item-1'>Bootstrap</li>
+              </ul>
+              <div className='project-source-links-1'>
+                <a href='https://github.com/yeul/puppies-portfolio-3' target='_blank'>
+                  <i className='github-icon fab fa-github' />
+                </a>
+                <a href='https://puppies-portfolio-3.mpscqw.now.sh/' target='_blank'>
+                  <i className='external-link fas fa-external-link-alt' />
+                </a>
+              </div>
+              <div className='project-sample-info-1'>
+                Website demonstrating a carousel of dog images/breed info written in JS and React. Background color/button colors also change depending upon carousel position.
+              </div>
+              <div className='background-border-1' />
             </div>
           </div>
         </div>

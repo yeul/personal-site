@@ -44,14 +44,14 @@ class Nav extends React.Component {
                   <li className='nav-li'>
                     <span className='nav-num'>.04</span>
                     <span className='nav-link-name'>
-                      <a className='nav-link-link' href='/' target='_blank'>
+                      <a className='nav-link-link' href='https://www.linkedin.com/in/juliafurman/' target='_blank'>
                         LinkedIn
                       </a>
                     </span>
                   </li>
                   <li className='nav-li'>
                     <span className='nav-link-name link-resume'>
-                      <a className='nav-link-resume' href='#'>
+                      <a className='nav-link-resume' href='/static/files/julia-furman-resume-2019.pdf' target='_blank'>
                         Résumé
                       </a>
                     </span>
