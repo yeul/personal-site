@@ -51,7 +51,7 @@ class Nav extends React.Component {
                   </li>
                   <li className='nav-li'>
                     <span className='nav-link-name link-resume'>
-                      <a className='nav-link-resume' href='/static/files/julia-furman-resume-2019.pdf' target='_blank'>
+                      <a className='nav-link-resume' href='/static/files/Julia Furman Resume.pdf' target='_blank'>
                         Résumé
                       </a>
                     </span>

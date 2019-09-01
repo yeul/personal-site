@@ -205,7 +205,8 @@ class App extends React.Component {
                 </a>
               </div>
               <div className='project-sample-info-2'>
-                Website created for an imaginary start-up web development business. Uniform design language and responsiveness can be found throughout all pages.
+                Created for Jupio Labs as a template/toolbox of components for future use on web development projects. Uniform design language and responsiveness can be found
+                throughout.
               </div>
               <div className='background-border-2' />
             </div>
